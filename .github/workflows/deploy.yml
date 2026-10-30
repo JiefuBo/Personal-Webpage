@@ -34,7 +34,7 @@ jobs:
       - name: Upload maintenance website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./index
+          path: ./maintenance
 #          修改发布页面时修改这个参数！！！！！！！！
 
       - name: Deploy
